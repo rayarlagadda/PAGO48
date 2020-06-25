@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    #newservices{
+      display:none !important;
+    }
+    .otherimg{
+        display: block !important;
+       
+      }
+  }
+  @media only screen and (min-width: 600px) {
+    .otherimg{
+        display:none !important;
+    }
+    #services{
+        display:none !important;
+      }
+  }
+
+  /* @media screen and (max-width: 600px) {
+    .vdobn{
+    
+        margin-left: 100px;
+        margin-top: 4px;
+    }
+    }
+    @media screen and (min-width: 600px) {
+        .vdobn{
+        
+            margin-left: 10px;
+           
+        }
+    } */
